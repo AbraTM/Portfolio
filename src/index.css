@@ -1,0 +1,12 @@
+:root{
+    font-family: 'Ubuntu';
+    margin: 0px;
+    background-color: #011627;
+    color: #fdfffc;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding-bottom: 500px;
+}
