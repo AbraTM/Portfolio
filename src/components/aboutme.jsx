@@ -6,15 +6,15 @@ export default function AboutMe(){
         <div>
             <div className="aboutme">
                 <div>
-                    <p>Hey,</p>
-                    <p>I am Tushar Malhan</p>
-                    <h5>About Me</h5>
+                    <h2>Hi There,</h2>
+                    <h2>I'm Tushar Malhan</h2>
+                    <h2>Web Developer</h2>
                     <div className="text">
-                        I am a frontent developer helloo
-                        how are you doing
+                        Web Developer, experienced mainly in frontend work, aim to produce quality work. 
                     </div>
+                    <a href="tusharmalhan2564@gmail.com">Contact Me </a>
                 </div>
-                <div>IMG</div>
+                <img src="./src/assets/profile.png" className="profile-img"></img>
             </div>
             <div className="line"></div>
         </div>
