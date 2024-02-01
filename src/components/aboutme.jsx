@@ -12,9 +12,10 @@ export default function AboutMe(){
                     <div className="text">
                         Web Developer, experienced mainly in frontend work, aim to produce quality work. 
                     </div>
-                    <a href="tusharmalhan2564@gmail.com">Contact Me </a>
+                    <a href="mailto:tusharmalhan2564@gmail.com" className="mail"><button className="mail-me">
+                    Contact Me &#9993;</button></a>
                 </div>
-                <img src="./src/assets/profile.png" className="profile-img"></img>
+                <img src="./public/assets/profile.png" className="profile-img"></img>
             </div>
             <div className="line"></div>
         </div>

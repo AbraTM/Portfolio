@@ -1,6 +1,6 @@
 import React from "react";
 import "./styling/project-bw.css";
-import Logo from "../assets/ReactLogo.png"
+import Logo from "../../public/assets/ReactLogo.png"
 
 export default function BrowserWindow(props){
     const [openLink, setOpenLink] = React.useState(false)
@@ -47,7 +47,7 @@ export default function BrowserWindow(props){
                     </div>
                     <div className="right">&#x22EE;</div>
                 </div>
-                <img src={`./src/assets/${props.project.img}`}  className="project-img"></img>
+                <img src={`./public/assets/${props.project.img}`}  className="project-img"></img>
             </div>
         </div>
     )
