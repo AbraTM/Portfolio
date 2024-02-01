@@ -47,7 +47,7 @@ export default function BrowserWindow(props){
                     </div>
                     <div className="right">&#x22EE;</div>
                 </div>
-                <img src={`./public/assets/${props.project.img}`}  className="project-img"></img>
+                <img src={`../public/assets/${props.project.img}`}  className="project-img"></img>
             </div>
         </div>
     )
