@@ -64,7 +64,7 @@ export default function BrowserWindow(props){
                 </div>
 
                 <div className="title-bar-l3">
-                    <img src={`./public/assets/${props.project.img}`} className="project-img"></img>
+                    <img src={`./assets/${props.project.img}`} className="project-img"></img>
                 </div>
             </div>
         </div>
