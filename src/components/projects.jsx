@@ -32,7 +32,7 @@ export default function Projects(){
                     project={{
                                 name: 'AirBnB',
                                 URL: 'https://abratm.github.io/AirBnb-Clone/',
-                                img: 'AirBnb.png'
+                                img: 'AirBnb-Clone.png'
                             }}
                 />
                 <div className="project-desc">

@@ -1,8 +1,9 @@
 :root{
     font-family: 'Ubuntu';
     margin: 0px;
+    background: linear-gradient(to right, #000000, #434343);
     background-color: #EFECEC;
-    color: #0C2D57;
+    color: white;
 }
 
 *{
@@ -15,3 +16,4 @@ body{
     margin: 0px;
     padding-bottom: 500px;
 }
+

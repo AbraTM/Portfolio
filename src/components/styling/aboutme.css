@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 100px;
     margin: 100px;
+    min-height: 100vh;
 }
 
 .aboutme{
@@ -31,4 +34,25 @@ p{
     p{
         font-size: 12px;
     }
+}
+
+.experience{
+    display: flex;
+    gap: 20px;
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tech-logo{
+    width: 50px;
+}
+
+.tech-name{
+    font-size: 15px;
 }

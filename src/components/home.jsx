@@ -17,8 +17,6 @@ export default function AboutMe(){
                 </div>
                 <img src="./public/assets/profile.png" className="profile-img"></img>
             </div>
-            <div className="line"></div>
         </div>
-        
     )
 }

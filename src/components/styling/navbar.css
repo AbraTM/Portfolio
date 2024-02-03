@@ -14,15 +14,19 @@ nav{
     font-size: min(18px, 2.5vw);
     box-shadow: 1px 3px 7px black;
     padding: 17px 10px;
-    background-color: #0C2D57;
-    color: #C9D7DD;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.859);
 }
 
 .portfolio{
     font-size: min(30px, 4.5vw);
     margin-left: 20px;
     cursor: pointer;
+    opacity: 1;
 }
 
 .nav-menu{
@@ -39,7 +43,7 @@ nav{
 
 .option:hover{
     transform: scale(1.15);
-    border-bottom: 2px solid #FC6736;
+    border-bottom: 2px solid rgb(217, 0, 192);
 }
 
 

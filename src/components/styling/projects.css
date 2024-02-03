@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 5em;
+    row-gap: 3em;
 }
 
 .project-text{
@@ -30,19 +31,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .source-btn{
     font-size: 25px;
     color: white;
-    background-color: #14427d;
     padding: 2px 7px;
     border-radius: 7px;
     border: none;
-    transition: 100ms;
+    transition: all 0.7s ease;
+    background-image: radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
 }
 
 .source-btn:hover{
-    transform: scale(1.05);
-    box-shadow: 1px -2px 5px 1px inset black;
+    transition: all 0.3s ease;
+    background-image: radial-gradient(circle at left top, rgb(217, 0, 192), rgb(1, 110, 218));
+    box-shadow:  rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
 }
