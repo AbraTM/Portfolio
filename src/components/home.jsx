@@ -5,7 +5,7 @@ export default function AboutMe(){
     return(
         <div>
             <div className="home">
-                <div>
+                <div className="home-contents">
                     <h2>Hi There,</h2>
                     <h2>I'm Tushar Malhan</h2>
                     <h2>Web Developer</h2>
@@ -15,7 +15,10 @@ export default function AboutMe(){
                     <a href="mailto:tusharmalhan2564@gmail.com" className="mail"><button className="mail-me">
                     Contact Me &#9993;</button></a>
                 </div>
-                <img src="./public/assets/profile.png" className="profile-img"></img>
+                <div className="image-cn">
+                    <img src="./assets/profile.png" className="profile-img"></img>
+                </div>
+                
             </div>
         </div>
     )

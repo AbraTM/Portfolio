@@ -5,11 +5,10 @@ import BrowserWindow from "./browserwindow";
 export default function Projects(){
     return (
         <div className="mywork">
-            <div className="heading">
-                PROJECTS : 
-            </div>
             <div className="projects-cn">
-
+                <div className="heading">
+                    PROJECTS : 
+                </div>
                 <BrowserWindow
                     project={{
                                 name: 'Tenzies',

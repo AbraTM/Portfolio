@@ -2,20 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 130px;
-    gap: 70px;
-    min-height: 70vh;
+    gap: 60px;
+    min-height: 100vh;
+    padding: 0 20px;
 }
+
 
 h2{
     font-size: 45px;
     margin: 10px 0px;
-}
-
-.text{
-    font-size: 15px;
-    margin-top: 25px;
-    max-width: 440px;
 }
 
 .profile-img{
@@ -85,6 +80,8 @@ h2{
     background-color: black;
     margin-top: 20px;
 }
+
+
 
 
 
