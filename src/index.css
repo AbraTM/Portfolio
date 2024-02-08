@@ -12,7 +12,24 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+
 body{
     margin: 0px;
 }
 
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track{
+    background:#434343;
+}
+
+::-webkit-scrollbar-thumb{
+    background: radial-gradient(circle at left top, rgba(1, 110, 218, 0.504), rgba(217, 0, 192, 0.564));
+    border-radius: 100vw;
+}

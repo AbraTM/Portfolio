@@ -47,6 +47,11 @@ nav{
     border-bottom: 2px solid rgb(217, 0, 192);
 }
 
+.option .active{
+    transform: scale(1.15);
+    border-bottom: 2px solid rgb(217, 0, 192);
+}
+
 
 .hamburger-menu{
     display: flex;

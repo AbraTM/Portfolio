@@ -4,7 +4,7 @@ import BrowserWindow from "./browserwindow";
 
 export default function Projects(){
     return (
-        <div className="mywork">
+        <div className="mywork" id="projects">
             <div className="projects-cn">
                 <div className="heading">
                     PROJECTS : 

@@ -1,12 +1,13 @@
 import React from "react";
 import "./styling/home.css"
+import { motion } from "framer-motion";
 
 export default function AboutMe(){
     return(
-        <div>
-            <div className="home">
+    
+            <div className="home" id="home">
                 <div className="home-contents">
-                    <h2>Hi There,</h2>
+                    <motion.h2 initial={{opacity: 0}} whileInView={{opacity: 1}}transition={{}}>Hi There,</motion.h2 >
                     <h2>I'm Tushar Malhan</h2>
                     <h2>Web Developer</h2>
                     <div className="text">
@@ -20,6 +21,5 @@ export default function AboutMe(){
                 </div>
                 
             </div>
-        </div>
     )
 }

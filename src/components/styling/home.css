@@ -5,6 +5,13 @@
     gap: 60px;
     min-height: 100vh;
     padding: 0 20px;
+    scroll-snap-align: start;
+}
+
+@media only screen and (min-width: 600px){
+    .home{
+        min-height: 35vh;
+    }
 }
 
 

@@ -9,7 +9,7 @@ import CPP from "../../public/assets/c++.png"
 
 export default function AboutMe(){
     return(
-        <div className="aboutme-cn">
+        <div className="aboutme-cn" id="aboutme">
             <div className="aboutme">
                 <h1>About Me</h1>
                 <img src={Extra} className="extra"></img>

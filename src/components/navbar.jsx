@@ -1,5 +1,6 @@
 import React from "react";
 import "./styling/navbar.css"
+import { Link } from "react-scroll";
 
 export default function Navbar(){
     const [navMenu, setNavMenu] = React.useState(false)
@@ -21,9 +22,9 @@ export default function Navbar(){
                 <label className="hamburger-menu" onClick={handleChange}>
                     <input type="checkbox"></input>
                 </label>
-                {navMenu && <div className="option">Home</div>}
-                {navMenu && <div className="option">About</div>}
-                {navMenu && <div className="option">Contact</div>}
+                {navMenu && <Link to="home" spy={true} smooth={true} offset={0} duration={500} className="option">Home</Link >}
+                {navMenu && <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500} className="option">About</Link >}
+                {navMenu && <Link to="projects" spy={true} smooth={true} offset={100} duration={500} className="option">Projects</Link >}
                 <div></div>
             </div>
         </nav>
