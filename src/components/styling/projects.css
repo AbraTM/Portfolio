@@ -52,3 +52,25 @@
     background-image: radial-gradient(circle at left top, rgb(217, 0, 192), rgb(1, 110, 218));
     box-shadow:  rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
 }
+
+@media (max-width: 400px){
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    .projects-cn{
+        column-gap: 2em;
+    }
+
+    .projects-cn h1{
+        font-size: 30px;
+    }
+
+    .project-text{
+        font-size: 8px;
+    }
+
+    .source-btn{
+        font-size: 17px;
+    }
+}

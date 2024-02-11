@@ -5,9 +5,30 @@
     scroll-snap-align: start;
 }
 
-@media only screen and (min-width: 600px){
-    .aboutme-cn{
-        min-height: 30vh;
+@media(max-width: 400px){
+
+    .aboutme-cn h1{
+        font-size: 40px;
+    }
+
+    .aboutme-cn .extra{
+        min-width: 100px
+    }
+
+    .aboutme-cn p{
+        font-size: 10px;
+    }
+
+    .aboutme-cn .skill{
+        font-size: 18px;
+    }
+
+    .aboutme-cn .tech-logo{
+        width: 25px;
+    }
+
+    .aboutme-cn .tech-name{
+        font-size: 7px;
     }
 }
 

@@ -27,7 +27,7 @@ export default function AboutMe(){
                 <div className="experience">
                     <div className="tech">
                         <img src={HTML} className="tech-logo"></img>
-                        <div className="teach-name">HTML</div>
+                        <div className="tech-name">HTML</div>
                     </div>
 
                     <div className="tech">
