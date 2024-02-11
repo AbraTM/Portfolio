@@ -14,7 +14,7 @@ export default function AboutMe(){
                         Web Developer, experienced mainly in frontend work, aim to produce quality work. 
                     </div>
                     <a href="mailto:tusharmalhan2564@gmail.com" className="mail"><button className="mail-me">
-                    Contact Me &#9993;</button></a>
+                    Contact Me &#x2709;</button></a>
                 </div>
                 <div className="image-cn">
                     <img src="./assets/profile.png" className="profile-img"></img>

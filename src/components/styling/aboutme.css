@@ -6,6 +6,9 @@
 }
 
 @media(max-width: 400px){
+    .aboutme-cn{
+        padding-top: 150px;
+    }
 
     .aboutme-cn h1{
         font-size: 40px;
