@@ -7,7 +7,7 @@ export default function AboutMe(){
     
             <div className="home" id="home">
                 <div className="home-contents">
-                    <motion.h2 initial={{opacity: 0}} whileInView={{opacity: 1}}transition={{}}>Hi There,</motion.h2 >
+                    <h2>Hi There,</h2>
                     <h2>I'm Tushar Malhan</h2>
                     <h2>Web Developer</h2>
                     <div className="text">

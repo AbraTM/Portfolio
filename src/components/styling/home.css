@@ -5,26 +5,26 @@
     gap: 60px;
     min-height: 100vh;
     padding: 0 20px;
-    scroll-snap-align: start;
 }
 
 
 @media (max-width: 400px){
     .home{
         min-height: 85vh;
+        gap: 23px;
     }
 
     .home h2{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .home .text{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .home .profile-img{
-        height: 150px;
-        width: 150px;
+        height: 160px;
+        width: 160px;
     }
 
     .home .mail-me{

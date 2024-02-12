@@ -19,13 +19,22 @@ export default function Navbar(){
                 PORTFOLIO
             </div>
             <div className="nav-menu">
-                <label className="hamburger-menu" onClick={handleChange}>
-                    <input type="checkbox"></input>
-                </label>
-                {navMenu && <Link to="home" spy={true} smooth={true} offset={0} duration={500} className="option">Home</Link >}
-                {navMenu && <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500} className="option">About</Link >}
-                {navMenu && <Link to="projects" spy={true} smooth={true} offset={100} duration={500} className="option">Projects</Link >}
-                <div></div>
+                <Link to="home" spy={true} smooth={true} offset={0} duration={500} className="option"
+                >    
+                    Home
+                </Link >
+                <Link to="aboutme" spy={true} smooth={true} offset={-100} duration={500} className="option"
+                >
+                    About
+                </Link >
+                <Link to="projects" spy={true} smooth={true} offset={100} duration={500} className="option"
+                >
+                    Projects
+                </Link >
+                <Link to="footer" spy={true} smooth={true} offset={100} duration={500} className="option"
+                >
+                   Contact
+                </Link >
             </div>
         </nav>
     )

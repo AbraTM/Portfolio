@@ -13,6 +13,7 @@ export default function App(){
       <Home />
       <AboutMe />
       <Projects />
+      <Footer />
     </div>
   )
 }
