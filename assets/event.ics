@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20240212T064350Z
+UID:cdbe9562-65d5-4512-a4f9-eb8d0e2a71f5
+DTSTART:20240217T110000
+DTEND:20240217T140000
+CLASS:PRIVATE
+DESCRIPTION:Join here: https://commudle.com/communities/gdg-gurugram/events
+ /android-study-jam-2-0
+LOCATION:https://commudle.com/communities/gdg-gurugram/events/android-study
+ -jam-2-0
+ORGANIZER;CN=GDG Gurugram:mailto:gdggurugram@gmail.com
+SUMMARY:Android Study Jam 2.0 :: GDG Gurugram
+URL:https://commudle.com/communities/gdg-gurugram/events/android-study-jam-
+ 2-0
+END:VEVENT
+END:VCALENDAR
