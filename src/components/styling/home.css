@@ -10,7 +10,6 @@
 
 @media (max-width: 400px){
     .home{
-        min-height: 85vh;
         gap: 23px;
     }
 

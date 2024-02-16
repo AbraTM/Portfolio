@@ -1,8 +1,24 @@
 import React from "react";
 import "./styling/projects.css";
 import BrowserWindow from "./browserwindow";
+import { motion } from "framer-motion";
 
 export default function Projects(){
+
+    const [viewMore, setViewMore] = React.useState(false)
+
+    const show = {
+        opacity: 1,
+        display: "flex"
+    }
+
+    const hide = {
+        opacity: 0,
+        transitionEnd: {
+            display: "none"
+        }
+    }
+
     return (
         <div className="mywork" id="projects">
             <div className="projects-cn">
@@ -43,8 +59,32 @@ export default function Projects(){
                         </button>
                     </a>
                 </div>
+            </div>
 
-            </div>   
+            <motion.div className="projects-cn" animate={viewMore ? show : hide}>
+                <BrowserWindow
+                        project={{
+                                    name: 'MemeGenerator',
+                                    URL: 'https://abratm.github.io/MemeGenerator/',
+                                    img: 'MemeGenerator.png'
+                                }}
+                />
+                <div className="project-desc">
+                    <h1>Meme Generator</h1>
+                    <div className="project-text">An interactive Meme Generator</div>
+                    <a href="https://github.com/AbraTM/MemeGenerator" target="_blank" className="sourcecode-link">
+                        <button className="source-btn">
+                            Source
+                        </button>
+                    </a>
+                </div>
+            </motion.div>
+
+            <div className="control">
+                <motion.button whileTap={{scale: 0.95}} onClick={() => setViewMore(!viewMore)}>
+                        {viewMore ? "View Less" : "View More"}
+                </motion.button>
+            </div>
         </div>
     )
 }

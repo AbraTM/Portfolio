@@ -2,9 +2,9 @@
     padding-top: 200px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 150px;
 }
 
 .heading{
@@ -23,9 +23,17 @@
     align-items: center;
     column-gap: 5em;
     row-gap: 4em;
+    max-width: 760px;
+    
 }
 
-h1{
+.project-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-desc h1{
     text-align: center;
 }
 
@@ -59,9 +67,29 @@ h1{
     box-shadow:  rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
 }
 
+.control{
+    position: relative;
+    top: -40px;
+    margin-bottom: 50px;
+    transition: 200ms;
+}
+
+
+.control button{
+    color: white;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.39);
+    border: none;
+    border-radius: 15px;
+    padding: 7px 14px;
+    box-shadow: -3px 7px 7px 2px rgba(0, 0, 0, 0.49);
+}
+
+
+
 @media (max-width: 400px){
     .mywork{
-        padding-top: 130px;
+        padding-top: 200px;
     }
 
     .heading{
@@ -73,7 +101,7 @@ h1{
     }
 
     .projects-cn h1{
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .project-text{
@@ -82,5 +110,9 @@ h1{
 
     .source-btn{
         font-size: 17px;
+    }
+
+    .control{
+        top: 0px
     }
 }

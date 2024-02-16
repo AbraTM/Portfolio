@@ -3,6 +3,7 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow:  rgba(111, 76, 255, 0.5) 0px 0px 50px 0px;
+    
 }
 
 /* Title Bar l1 */
@@ -157,6 +158,7 @@
     transition: 200ms;
     width: 30rem;
     height: 30rem;
+    min-width: 480px;
 }
 
 .bw-container:hover{
@@ -189,6 +191,8 @@
     .bw-container{
         width: 15rem;
         height: 15rem;
+        min-width: 240px;
+        min-height: 191px;
     }
 
     .c2{
@@ -202,6 +206,4 @@
     .link-text{
         font-size: 1.1em;
     }
-
-    
 }
