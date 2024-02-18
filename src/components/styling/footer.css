@@ -85,3 +85,9 @@ h3{
         padding-bottom: 50px;
     }
 }
+
+@media (max-width: 780px) {
+    .footer{
+        padding: 0 50px;
+    }
+}

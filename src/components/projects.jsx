@@ -71,8 +71,27 @@ export default function Projects(){
                 />
                 <div className="project-desc">
                     <h1>Meme Generator</h1>
-                    <div className="project-text">An interactive Meme Generator</div>
+                    <div className="project-text">An interactive Meme Generator.</div>
                     <a href="https://github.com/AbraTM/MemeGenerator" target="_blank" className="sourcecode-link">
+                        <button className="source-btn">
+                            Source
+                        </button>
+                    </a>
+                </div>
+            </motion.div>
+
+            <motion.div className="projects-cn" animate={viewMore ? show : hide}>
+                <BrowserWindow
+                        project={{
+                                    name: 'TravelJournal',
+                                    URL: 'https://abratm.github.io/Travel-Journal/',
+                                    img: 'TravelJournal.png'
+                                }}
+                />
+                <div className="project-desc">
+                    <h1>Travel Journal</h1>
+                    <div className="project-text">A simple travel journal.</div>
+                    <a href="https://github.com/AbraTM/Travel-Journal" target="_blank" className="sourcecode-link">
                         <button className="source-btn">
                             Source
                         </button>
