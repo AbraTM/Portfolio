@@ -1,0 +1,139 @@
+.about-section{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 70px 70px rgb(25, 25, 25);
+    position: relative;
+    z-index: 10;
+    display: flex;
+
+    padding-bottom: 200px;
+}
+
+.skills{
+    font-family: monospace;
+    width: 50%;
+    height: 100%;
+    color: white;
+
+    position: relative;
+}
+
+.skills h1{
+    font-size: 50px;
+    font-weight: 400;
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.skills-grid-bg{
+    width: fit-content;
+    background-image: url();
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+
+.skills-grid{
+    width: 500px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+    row-gap: 10px;
+
+    position: absolute;
+    top: 310px;
+    left: 140px;
+}
+
+.skills-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+.skills-icon h3{
+    margin: 0;
+    color: rgb(224, 223, 223);
+    text-align: center;
+}
+
+.icon{
+    width: 60px;
+}
+
+
+.mid-line{
+    width: 2px;
+    height: 550px;
+    margin-top: 190px;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+@keyframes midLineDrop{
+    from{
+        height: 0px;
+    }
+}
+
+.about{
+    font-family: monospace;
+    width: 50%;
+    height: 100%;
+    color: white;
+    position: relative;
+}
+
+.about h1{
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    top: 200px;
+    left: 125px;
+}
+
+.about-txt{
+    width: 500px;
+    font-size: 18px;
+
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+
+.p2{
+    position: absolute;
+    top: 480px;
+}
+
+.slide-animation{
+    position: relative;
+}
+
+.slide-animation::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+
+    animation: 2s slideAnim forwards;
+    animation-timeline: view();
+    animation-range-end: entry 500px;
+}
+
+@keyframes slideAnim {
+    to{
+        left: 100%;
+    }
+}
