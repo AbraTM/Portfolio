@@ -72,3 +72,30 @@
 .socials img:hover{
     opacity: 0.5;
 }
+
+@media (max-width: 400px) {
+    .footer-bg{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 40px;
+    }
+
+    .footer-contact{
+        width: 100%;
+    }
+
+    .email-btn{
+        width: 270px;
+    }
+
+    .socials{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+}

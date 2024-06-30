@@ -12,7 +12,7 @@ export default function Footer(){
             <div className="footer">
                 <div className="footer-contact">
                     <h3>Get in touch</h3>
-                    <a href="#" className="email-btn">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="email-btn">
                         <div>EMAIL</div>
                         <div>&#x2192;</div>
                     </a>
@@ -22,9 +22,15 @@ export default function Footer(){
                 </div>
                 <div className="socials">
                     <h3>Find me on socials</h3>
-                    <img src={TwitterIcon}></img>
-                    <img src={InstagramIcon}></img>
-                    <img src={LinkedInIcon}></img>
+                    <a href="https://twitter.com/Tushar_Malhan_" target="_blank">
+                        <img src={TwitterIcon}></img>
+                    </a>
+                    <a href="https://www.instagram.com/tushar_malhan_/" target="_blank">
+                        <img src={InstagramIcon}></img>
+                    </a>
+                    <a href="www.linkedin.com/in/tushar-malhan-9998ab256" target="_blank">
+                        <img src={LinkedInIcon}></img>
+                    </a>
                 </div>
             </div>
         </div>

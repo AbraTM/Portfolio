@@ -138,3 +138,48 @@
         opacity: 1;
     }
 }
+
+
+/* Mobile view */
+
+@media (max-width: 400px) {
+    .wrapper{
+        height: 100vh;
+    }
+
+    .hero{
+        height: 100vh;
+    }
+
+    .portfolio-header{
+        font-size: 20px;
+        right: 10px;
+    }
+
+    .hero-info-cn{
+        top: 25%;
+        height: 250px;
+
+    }
+
+    .hero-text h1{
+        font-size: 22px;
+    }
+
+    .hero-text p{
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .profile{
+        display: none;
+    }
+
+    .contact-me-btn{
+        bottom: 120px;
+    }
+
+    .resume-btn{
+        bottom: 120px;
+    }
+}

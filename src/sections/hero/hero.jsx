@@ -16,12 +16,12 @@ export default function Hero(){
                         </div>
                         <div className="profile"></div>
                     </div>
-                    <div className="contact-me-btn">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="contact-me-btn">
                         <button className="contact-me">CONTACT ME</button>
-                    </div>
-                    <div className="resume-btn">
+                    </a>
+                    <a href="https://tusharmalhanresume.tiiny.site/" target="_blank" className="resume-btn">
                         <button className="resume">RESUME</button>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

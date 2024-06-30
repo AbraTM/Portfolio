@@ -218,4 +218,8 @@
     .link-text{
         font-size: 1.1em;
     }
+
+    .title-bar-l3{
+        height: 13rem;
+    }
 }
