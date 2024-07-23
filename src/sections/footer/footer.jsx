@@ -28,7 +28,7 @@ export default function Footer(){
                     <a href="https://www.instagram.com/tushar_malhan_/" target="_blank">
                         <img src={InstagramIcon}></img>
                     </a>
-                    <a href="www.linkedin.com/in/tushar-malhan-9998ab256" target="_blank">
+                    <a href="https://www.linkedin.com/in/tushar-malhan-9998ab256" target="_blank">
                         <img src={LinkedInIcon}></img>
                     </a>
                 </div>
