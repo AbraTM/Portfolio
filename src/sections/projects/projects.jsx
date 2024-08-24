@@ -45,23 +45,43 @@ export default function Projects(){
                 </div>
 
                 <div className="project-cn">    
-                <BrowserWindow
-                    project={{
-                        name: 'Energy',
-                        URL: 'https://abratm.github.io/EnergyDrink-WebPage/',
-                        img: 'Energy.png'
-                    }}
-                />
-                <div className="project-desc">
-                    <h1>Energy</h1>
-                    <div className="project-text">An Energy Drink website.</div>
-                    <a href="https://github.com/AbraTM/EnergyDrink-WebPage" target="_blank" className="sourcecode-link">
-                        <button className="source-btn">
-                            Source
-                        </button>
-                    </a>
+                    <BrowserWindow
+                        project={{
+                            name: 'RealEstate',
+                            URL: 'https://real-estate-theta-neon.vercel.app/',
+                            img: 'RealEstate.png'
+                        }}
+                    />
+                    <div className="project-desc">
+                        <h1>RealEstate</h1>
+                        <div className="project-text">A real estate listing MERN stack application.</div>
+                        <a href="https://github.com/AbraTM/RealEstate" target="_blank" className="sourcecode-link">
+                            <button className="source-btn">
+                                Source
+                            </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
+
+                <motion.div className="project-cn" animate={viewMore ? show : hide}>    
+                    <BrowserWindow
+                        project={{
+                            name: 'Energy',
+                            URL: 'https://abratm.github.io/EnergyDrink-WebPage/',
+                            img: 'Energy.png'
+                        }}
+                    />
+                    <div className="project-desc">
+                        <h1>Energy</h1>
+                        <div className="project-text">An Energy Drink website.</div>
+                        <a href="https://github.com/AbraTM/EnergyDrink-WebPage" target="_blank" className="sourcecode-link">
+                            <button className="source-btn">
+                                Source
+                            </button>
+                        </a>
+                    </div>
+                </motion.div>
+
                 
                 <motion.div className="project-cn" animate={viewMore ? show : hide}>       
                     <BrowserWindow
@@ -120,7 +140,7 @@ export default function Projects(){
                     </div>
                 </motion.div>
 
-                <motion.div className="project-cn" animate={viewMore ? show : hide}>
+                {/* <motion.div className="project-cn" animate={viewMore ? show : hide}>
                     <BrowserWindow
                         project={{
                                     name: 'AirBnB',
@@ -137,16 +157,17 @@ export default function Projects(){
                             </button>
                         </a>
                     </div>
-                </motion.div>
-                
+                </motion.div> */}
 
                 <div className="control">
-                    <motion.button whileTap={{scale: 0.95}} onClick={() => setViewMore(!viewMore)}>
-                            {viewMore ? "View Less" : "View More"}
-                    </motion.button>
+                        <motion.button whileTap={{scale: 0.95}} onClick={() => setViewMore(!viewMore)}>
+                                {viewMore ? "View Less" : "View More"}
+                        </motion.button>
                 </div>
 
             </div>
+
+            
         </div>
     )
 }

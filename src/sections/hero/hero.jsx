@@ -19,7 +19,7 @@ export default function Hero(){
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="contact-me-btn">
                         <button className="contact-me">CONTACT ME</button>
                     </a>
-                    <a href="https://tusharmalhanresume.tiiny.site/" target="_blank" className="resume-btn">
+                    <a href="https://tusharresume25.tiiny.site/" target="_blank" className="resume-btn">
                         <button className="resume">RESUME</button>
                     </a>
                 </div>
