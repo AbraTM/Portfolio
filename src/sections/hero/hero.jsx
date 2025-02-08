@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css"
+import ProfileURL from "../../../public/profile_img.jpg"
 
 export default function Hero(){
     return(
@@ -15,7 +16,7 @@ export default function Hero(){
                             <p>Web Developer, experienced mainly in frontend work, aim to produce quality work.</p>
                         </div>
                         <div className="profile">
-                            <img src="./public/profile_img.jpg" className="profile-img"></img>
+                            <img src={ProfileURL} className="profile-img"></img>
                         </div>
                     </div>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="contact-me-btn">
