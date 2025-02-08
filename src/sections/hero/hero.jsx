@@ -14,7 +14,9 @@ export default function Hero(){
                             <h1 className="underline">Web Developer</h1>
                             <p>Web Developer, experienced mainly in frontend work, aim to produce quality work.</p>
                         </div>
-                        <div className="profile"></div>
+                        <div className="profile">
+                            <img src="./public/profile_img.jpg" className="profile-img"></img>
+                        </div>
                     </div>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="contact-me-btn">
                         <button className="contact-me">CONTACT ME</button>

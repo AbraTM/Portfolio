@@ -84,6 +84,11 @@
     animation: 4s heroInfo forwards;
 }
 
+.profile-img{
+    width: 100%;
+    border-radius: 50%;
+}
+
 @keyframes heroInfo {
     50%{
         opacity: 0;
