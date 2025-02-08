@@ -12,7 +12,7 @@ export default function Footer(){
             <div className="footer">
                 <div className="footer-contact">
                     <h3>Get in touch</h3>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tusharmalhan2564@gmail.com" target="_blank" className="email-btn">
+                    <a href="mailto:tusharmalhan2564@gmail.com" target="_blank" className="email-btn">
                         <div>EMAIL</div>
                         <div>&#x2192;</div>
                     </a>
